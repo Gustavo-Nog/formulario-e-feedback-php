@@ -38,11 +38,12 @@ Olá, Gustavo! Você tem 20 anos.
 #### 📄 Arquivos principais:
 - `listar_produtos.php`: Lista produtos com links contendo `ID` via método `GET`;
 - `avaliar_produto.php`: Formulário de avaliação com nota de 1 a 5 (via `POST`);
-- `processarnota.php`: Processa a nota e exibe mensagem de agradecimento.
+- `processar_nota.php`: Processa a nota e exibe mensagem de agradecimento.
 
 #### 💡 Exemplo de saída:
-
+```bash
 Obrigado por avaliar o Produto 1 com a nota 4.
+```
 
 #### 🧪 Tecnologias utilizadas:
 - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat) HTML5  
@@ -64,8 +65,13 @@ Obrigado por avaliar o Produto 1 com a nota 4.
 2. Mova a pasta `SI-Web` para o diretório do servidor local (ex: `htdocs` no XAMPP).
 3. Acesse no navegador:
 
+```bash
 http://localhost/SI-Web/Boas-vindas/index.html
+```
+
+```bash
 http://localhost/SI-Web/Feedback/listar_produtos.php
+```
 
 ---
 
